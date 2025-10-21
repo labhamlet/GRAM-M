@@ -1,0 +1,10 @@
+size: base
+mlp_ratio: 4.0
+d_state: 24
+d_conv: 4
+expand: 3
+rms_norm: True
+residual_in_fp32: True
+fused_add_norm: True
+norm_epsilon: 1e-6
+use_mwmae_decoder : True
